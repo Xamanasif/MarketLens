@@ -1,0 +1,47 @@
+test_analysis_and_quarantine (test_marketlens.APITests.test_analysis_and_quarantine) ... ok
+test_batch (test_marketlens.APITests.test_batch) ... ok
+test_create_idempotent_export (test_marketlens.APITests.test_create_idempotent_export) ... ok
+test_health_dashboard_docs (test_marketlens.APITests.test_health_dashboard_docs) ... ok
+test_invalid_config (test_marketlens.APITests.test_invalid_config) ... ok
+test_malformed_import (test_marketlens.APITests.test_malformed_import) ... ok
+test_nonoverlap_batch_validation (test_marketlens.APITests.test_nonoverlap_batch_validation) ... ok
+test_unknown_dataset_and_run (test_marketlens.APITests.test_unknown_dataset_and_run) ... ok
+test_batch_concurrent_duplicate_requests (test_marketlens.ArchiveAndRegressionTests.test_batch_concurrent_duplicate_requests) ... ok
+test_binance_timestamp_milliseconds_and_microseconds (test_marketlens.ArchiveAndRegressionTests.test_binance_timestamp_milliseconds_and_microseconds) ... ok
+test_import_quotes_mismatched_symbol (test_marketlens.ArchiveAndRegressionTests.test_import_quotes_mismatched_symbol) ... ok
+test_mixed_fractional_timestamps_roundtrip (test_marketlens.ArchiveAndRegressionTests.test_mixed_fractional_timestamps_roundtrip) ... ok
+test_nonfinite_config_returns_validation_error (test_marketlens.ArchiveAndRegressionTests.test_nonfinite_config_returns_validation_error) ... ok
+test_backward_quote_alignment_and_staleness (test_marketlens.DataTests.test_backward_quote_alignment_and_staleness) ... ok
+test_batch_shape_and_finite_json (test_marketlens.DataTests.test_batch_shape_and_finite_json) ... ok
+test_checksum_failure_detected (test_marketlens.DataTests.test_checksum_failure_detected) ... ok
+test_columns_required (test_marketlens.DataTests.test_columns_required) ... ok
+test_crossed_quote_rejected (test_marketlens.DataTests.test_crossed_quote_rejected) ... ok
+test_demo_identity_is_platform_independent (test_marketlens.DataTests.test_demo_identity_is_platform_independent) ... ok
+test_demo_provenance_and_quarantine (test_marketlens.DataTests.test_demo_provenance_and_quarantine) ... ok
+test_duplicate_registration_is_idempotent (test_marketlens.DataTests.test_duplicate_registration_is_idempotent) ... ok
+test_future_volume_cannot_change_schedule (test_marketlens.DataTests.test_future_volume_cannot_change_schedule) ... ok
+test_naive_timestamp_rejected (test_marketlens.DataTests.test_naive_timestamp_rejected) ... ok
+test_nonfinite_negative_and_duplicate_quarantine (test_marketlens.DataTests.test_nonfinite_negative_and_duplicate_quarantine) ... ok
+test_path_traversal_rejected (test_marketlens.DataTests.test_path_traversal_rejected) ... ok
+test_raw_files_stored_byte_for_byte (test_marketlens.DataTests.test_raw_files_stored_byte_for_byte) ... ok
+test_store_concurrent_idempotence (test_marketlens.DataTests.test_store_concurrent_idempotence) ... ok
+test_trade_only_has_no_invented_spread (test_marketlens.DataTests.test_trade_only_has_no_invented_spread) ... ok
+test_training_cutoff_enforced (test_marketlens.DataTests.test_training_cutoff_enforced) ... ok
+test_window_bounds_rejected (test_marketlens.DataTests.test_window_bounds_rejected) ... ok
+test_bootstrap_paired_constant (test_marketlens.NumericalTests.test_bootstrap_paired_constant) ... ok
+test_bootstrap_requires_multiple_windows (test_marketlens.NumericalTests.test_bootstrap_requires_multiple_windows) ... ok
+test_capacity_and_no_overfill (test_marketlens.NumericalTests.test_capacity_and_no_overfill) ... ok
+test_decomposition_reconciles (test_marketlens.NumericalTests.test_decomposition_reconciles) ... ok
+test_flat_tape_zero_cost (test_marketlens.NumericalTests.test_flat_tape_zero_cost) ... ok
+test_no_volume_no_fills (test_marketlens.NumericalTests.test_no_volume_no_fills) ... ok
+test_opportunity_cost_sign (test_marketlens.NumericalTests.test_opportunity_cost_sign) ... ok
+test_pov_uses_lagged_volume (test_marketlens.NumericalTests.test_pov_uses_lagged_volume) ... ok
+test_profile_rejects_bad_weights (test_marketlens.NumericalTests.test_profile_rejects_bad_weights) ... ok
+test_seed_reproducible (test_marketlens.NumericalTests.test_seed_reproducible) ... ok
+test_sell_buy_spread_sign_and_fee (test_marketlens.NumericalTests.test_sell_buy_spread_sign_and_fee) ... ok
+test_uniform_vwap_equals_twap (test_marketlens.NumericalTests.test_uniform_vwap_equals_twap) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 10.354s
+
+OK

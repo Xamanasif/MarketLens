@@ -1,0 +1,28 @@
+{
+  "id": "22a2df81ac5154c0",
+  "name": "Synthetic six-session market demo",
+  "symbol": "DEMO",
+  "source": "synthetic_demo",
+  "description": "Generated seed 20261124; prices, trades and quotes are synthetic. Not an exchange dataset.",
+  "trade_rows": 2160,
+  "quote_rows": 720,
+  "rejected_trade_rows": 2,
+  "rejected_quote_rows": 0,
+  "start": "2025-01-06T09:30:10+00:00",
+  "end": "2025-01-11T11:29:40+00:00",
+  "hashes": {
+    "raw_quotes.csv": "5ccfd037cbc3ee9484f5251ae1b3fd864bb93a39bf1b1cfda301dde90e9c5f82",
+    "quotes.csv": "5ccfd037cbc3ee9484f5251ae1b3fd864bb93a39bf1b1cfda301dde90e9c5f82",
+    "quarantine.json": "24d8b18d5cda01e3ac42a92eb21d3ef2dc3db72e4cef8cdb44e507f20010c884",
+    "raw_trades.csv": "47e71288faf9b0c07311a0f0eed72138e6652abda51defd7d1658f71f8b7ba8f",
+    "trades.csv": "21978e1c2dd7c7958696b8103fe489133f455ea5086f0070d205c2717456f960"
+  },
+  "sessions": [
+    "2025-01-06",
+    "2025-01-07",
+    "2025-01-08",
+    "2025-01-09",
+    "2025-01-10",
+    "2025-01-11"
+  ]
+}

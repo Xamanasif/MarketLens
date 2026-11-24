@@ -1,0 +1,27 @@
+{
+  "trades": [
+    {
+      "line": 2162,
+      "reason": "duplicate trade ID or quote timestamp",
+      "row": {
+        "timestamp": "2025-01-06T09:30:10+00:00",
+        "symbol": "DEMO",
+        "trade_id": "0-0-0",
+        "price": "100.087477",
+        "quantity": "17.904431"
+      }
+    },
+    {
+      "line": 2163,
+      "reason": "price and quantity must be finite and positive",
+      "row": {
+        "timestamp": "2025-01-11T09:30:00+00:00",
+        "symbol": "DEMO",
+        "trade_id": "bad-negative",
+        "price": "-1.0",
+        "quantity": "2.0"
+      }
+    }
+  ],
+  "quotes": []
+}

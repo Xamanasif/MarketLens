@@ -1,0 +1,24 @@
+{
+  "id": "b7638ba53b9e93d6",
+  "name": "BATUSDT historical aggregate trades (4 sessions)",
+  "symbol": "BATUSDT",
+  "source": "public_archive",
+  "description": "Binance public trade-only archives. Original ZIP SHA256 verified against published checksums. No observed quotes; no order-book depth. Acquisition manifest in data/source_archives. Review source terms. UTC window 09:00 to 12:00.",
+  "trade_rows": 8809,
+  "quote_rows": 0,
+  "rejected_trade_rows": 0,
+  "rejected_quote_rows": 0,
+  "start": "2024-01-08T09:00:02.136000+00:00",
+  "end": "2024-01-11T11:59:58.546000+00:00",
+  "hashes": {
+    "quarantine.json": "d8a9b83b3713f5e420451d65ef64f3cb58e4e801e9be733f5eae76573a24b237",
+    "raw_trades.csv": "10ec46ae424a94160c1d1db0026ac4f9baf18e21fc218b24495b9a07d1f0a224",
+    "trades.csv": "bc68bddabf8c49f3ea8b7e6f15ea1e64995fc5b88b8ab0541749bdf9074c127e"
+  },
+  "sessions": [
+    "2024-01-08",
+    "2024-01-09",
+    "2024-01-10",
+    "2024-01-11"
+  ]
+}
